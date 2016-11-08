@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div {
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.dd-container {
+    margin: auto;
+}
+
+.dd-num-email {
+    padding: 10px 0;
+}
+
+.dd-row {
+    margin: 10px 5px;
+}
+
+.dd-input {
+    width: 500px;
+}
+
+.dd-divider {
+    width: 500px;
+    border-bottom: 1px solid grey;
+    height: 100px;
+}
+
+.dd-result {
+    width: 500px;
+    height: 200px;
+    background-color: #f2f2f2;
+    overflow-y: auto;
+}
+
+.dd-time {
+    color: green;
+    font-weight: bold;
+}

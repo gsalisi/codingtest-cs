@@ -1,0 +1,15 @@
+{
+  "name": "chefsteps",
+  "version": "1.0.0",
+  "description": "Email deduplicator for chefsteps",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Geoffrey Salisi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}

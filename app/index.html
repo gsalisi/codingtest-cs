@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deduplicator</title>
+    <link rel="stylesheet" type="text/css" href="app.css" />
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="dd-container">
+        <h2>Welcome Michael Natkin to the Deduplicator 2000!</h2>
+        <div>Note: This demo will only work in the latest browsers because I wrote it in ES6.</div>
+        <h4>Custom input:</h4>
+        <textarea class="dd-row dd-input js-input" rows="5" cols="500">['gs@gs.com', 'test@test.com', 'gs@gs.com', 'test@test.com']</textarea>
+        <div class="dd-row">
+            <label>Number of Unique emails:</label>
+            <input class="dd-num-email js-email-num" type="number" value="10000">
+            <button class="js-generate">Generate Test Emails</button>
+        </div>
+        <div class="dd-row">
+            <button class="js-submit">Deduplicate!</button>
+        </div>
+        <label class="dd-row">Result:</label>
+        <div class="dd-result js-result">
+        </div>
+        <div class="dd-time js-time">
+        </div>
+        <div class="dd-divider"></div>
+        <div>
+            <label>Required Tests: </label>
+            <button class="js-test dd-row">Run Tests!</button>
+        </div>
+
+        <div class="dd-row">
+            <h4>100000 e-mail Test:</h4>
+            <label>Input</label>
+             <div class="dd-result js-test-input">
+            </div>
+            <label>Output</label>
+            <div class="dd-result js-test-result">
+            </div>
+            <div class="dd-time js-test-time">
+            </div>
+        </div>
+
+        <div class="dd-row">
+            <h4>Maintaining Order Test:</h4>
+            <label>Input</label>
+            <div class="dd-result js-test-input2">
+            </div>
+            <label>Output</label>
+            <div class="dd-result js-test-result2">
+            </div>
+            <div class="dd-time js-test-time2">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
